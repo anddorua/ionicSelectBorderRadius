@@ -1,0 +1,7 @@
+{
+  "name": "ionicSelectBorderRadius",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
