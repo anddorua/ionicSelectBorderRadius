@@ -1,3 +1,22 @@
 <ion-app>
-  <ion-router-outlet></ion-router-outlet>
+  <ion-header [translucent]="true">
+    <ion-toolbar>
+      <ion-title> Select --border-radius bug demo </ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <ion-content>
+    <div id="container" style="margin: 40px">
+      <ion-select
+        aria-label="fruit"
+        placeholder="Select fruit"
+        class="with-background"
+        interface="popover"
+      >
+        <ion-select-option value="apples">Apples</ion-select-option>
+        <ion-select-option value="oranges">Oranges</ion-select-option>
+        <ion-select-option value="bananas">Bananas</ion-select-option>
+      </ion-select>
+    </div>
+  </ion-content>
 </ion-app>
